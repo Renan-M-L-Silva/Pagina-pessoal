@@ -109,7 +109,7 @@
                 </div>
                 </div>
                 <div class="conhecimentos-img-wrapper">
-                    <img src="./imagens/conhecimentos.png" alt="imagem de conhecimento">
+                    <img src="./imagens/conhecimento2.jpg" alt="imagem de conhecimento">
                 </div>
             </div>    
         </section>
@@ -126,7 +126,7 @@
                         <h2>Todo List</h2>
                         <h3>JavaScript</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In porro et quia dolorum saepe sunt temporibus sed exercitationem, culpa doloremque recusandae libero reprehenderit repudiandae reiciendis fugit incidunt tenetur quam earum!</p>
-                        <button>Saiba Mais</button>
+                        <button class="btn">Saiba Mais</button>
                     </div>
                 </div>
                 <div class="card"> 
@@ -136,7 +136,7 @@
                             <h2>maratona</h2>
                             <h3>HTML5, CSS3</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vero porro fuga voluptatibus accusantium consequuntur ducimus veritatis, delectus architecto aspernatur rem praesentium pariatur perferendis, illo repellendus aliquid cumque consequatur quo.</p>
-                            <button>Saiba Mais</button>
+                            <button class="btn">Saiba Mais</button>
                         </div>
                     </div>
                 </div>
@@ -147,10 +147,59 @@
                             <h2>Casa linda</h2>
                             <h3>HTML</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto inventore voluptatibus in, necessitatibus voluptas omnis quasi voluptatum ab sed minima aliquam autem impedit consectetur facilis illum perferendis cumque assumenda animi.</p>
-                            <button>Saiba Mais</button>
+                            <button class="btn">Saiba Mais</button>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button type="submit" text="Enviar" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="sessao-orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça um Orçamento</h1>
+                <form action="">
+                    <label for="quantidade">Quantidade de Páginas</label>
+                    <input type="number" min="1" name="quantidade" id="quantidade">
+                    <label for="js">Preciso de um JavaScript</label>
+                    <input type="chackbox" name="js" id="js">
+                    <label for="Layout"></label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Preciso de um layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">Já tenha um layout</label>
+                        </div>
+                    </div>
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="prazo" id="prazo">
+                    <button class="btn btn-orcamento" type="submit">Enviar</button>
+                </form>
+
             </div>
         </section>
     </div>
