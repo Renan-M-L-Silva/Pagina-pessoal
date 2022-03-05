@@ -23,7 +23,7 @@
             <div class="line" id="line3"></div>
             <span>Fechar</span>
         </div>
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="./imagens/develop.jpg" alt="">
             </div>
@@ -37,19 +37,19 @@
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
                 </ul>
             </nav>
             <div class="social-media">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/renanm.l.silva/"><i class="fab fa-brands fa-instagram-square"></i></a>
+                <a href="https://github.com/Renan-M-L-Silva"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/renanmlsilva/"><i class="fab fa-linkedin"></i></a>
             </div>
         </aside>
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -113,7 +113,7 @@
                 </div>
             </div>    
         </section>
-        <section class="sessao-projetos">
+        <section class="sessao-projetos" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
             </div>
@@ -176,7 +176,7 @@
                 </div>
             </div>
         </section>
-        <section class="sessao-orcamento">
+        <section class="sessao-orcamento" id="orcamento">
             <div class="orcamento-wrapper">
                 <h1>Faça um Orçamento</h1>
                 <form action="">
@@ -196,12 +196,29 @@
                         </div>
                     </div>
                     <label for="prazo">Prazo</label>
-                    <input type="range" name="prazo" id="prazo">
+                    <input type="range" name="prazo" id="prazo" min="1" max="10">
+                    <label id="preco">R$ 0,00</label>
                     <button class="btn btn-orcamento" type="submit">Enviar</button>
                 </form>
-
             </div>
         </section>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2022, Renan Silva - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>                     
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
     <script src="./js/script.js"></script>
 </body>
