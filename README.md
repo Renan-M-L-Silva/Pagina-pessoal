@@ -1,6 +1,6 @@
-# Projeto-Portif-lio
+# Portifólio
 
-Criando meu Portifólio completo.
+Criando meu Portifólio.
 
 
 ## Tarefas
